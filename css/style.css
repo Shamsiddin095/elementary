@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.sidebar {
+  align-items: center;
+  padding-top: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: rgb(55, 50, 56);
+  left: -280px;
+  width: 300px;
+  height: 200vh;
+  position: fixed;
+}
+.sidebar:hover {
+  left: 0;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+.sidebar button {
+  background: rgb(103, 101, 101);
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.sidebar button:hover {
+  background: rgb(50, 46, 46);
+}
+.savol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+
+  padding: 20px 100px;
+}
+.savol h1 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+input {
+  display: none;
+}
+label {
+  padding: 10px 20px;
+  font-size: 20px;
+  background: rgb(0, 128, 117);
+  width: 150px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+label:hover {
+  background: rgb(10, 130, 154);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  max-width: 100%;
+}
+.content img {
+  max-width: 100%;
+}
+.content button {
+  background: rgb(39, 139, 121);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.content button:hover {
+  background: rgb(75, 145, 169);
+}
+input:checked ~ label ~ .content {
+  display: flex;
+}
+#container {
+  display: none;
+}
+#container_begin {
+  display: none;
+}
+#container_if {
+  display: none;
+}
+#container_case {
+  display: none;
+}
+#container_if_davomi {
+  display: none;
+}
+#container_for {
+  display: none;
+}
+.if_label {
+  background: red;
+}
+.begin_label {
+  background: rgb(34, 125, 31);
+}
+.case_label {
+  background: rgb(198, 127, 35);
+}
+.if_davomi_label {
+  background: rgb(169, 40, 94);
+}
+.for_label {
+  background: rgb(13, 150, 93);
+}

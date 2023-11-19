@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Elementary</title>
+  </head>
+  <body>
+    <main>
+      <div class="sidebar">
+        <button onclick="home27()">Misol 27</button>
+        <button onclick="begin()">Begin 4 ta</button>
+        <button onclick="goif()">Is else 3 logn parol</button>
+        <button onclick="gocase()">case5 dan case10 gacha 6 ta</button>
+        <button onclick="ifdavomi()">If10 dan boshlab davomi</button>
+        <button onclick="forwhile()">While for do while</button>
+      </div>
+      <div id="container">
+        <!--task1-->
+        <div class="savol">
+          <h1>
+            1. Ikkita son berilgan. Ularning yeg'indisini topuvchi dastur
+            tuzing.
+          </h1>
+          <input type="checkbox" id="task1" />
+          <label for="task1">Misol_1</label>
+          <div class="content">
+            <img src="./img/task1_img.png" alt="img" />
+            <button onclick="task1()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task2-->
+        <div class="savol">
+          <h1>
+            2. Uchta son berilgan. Ularning o'rta arifmetigini topuvchi dastur
+            tuzing.
+          </h1>
+          <input type="checkbox" id="task2" />
+          <label for="task2">Misol_2</label>
+          <div class="content">
+            <img src="./img/task2_img.png" alt="img" />
+            <button onclick="task2()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task3-->
+        <div class="savol">
+          <h1>
+            3. Ikkita son berilgan. Ularning kvadratlari yeg'indisi topuvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task3" />
+          <label for="task3">Misol_3</label>
+          <div class="content">
+            <img src="./img/task3_img.png" alt="img" />
+            <button onclick="task3()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task4-->
+        <div class="savol">
+          <h1>
+            4. Aylananing diametri D berilgan. Aylani uznunligi L ni topuvchida
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task4" />
+          <label for="task4">Misol_4</label>
+          <div class="content">
+            <img src="./img/task4_img.png" alt="img" />
+            <button onclick="task4()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task5-->
+        <div class="savol">
+          <h1>
+            5. Doiraning uzunligi L berilgan. Uning radiusi R va yuzasi S ni
+            topuvchi daastur tuzing.
+          </h1>
+          <input type="checkbox" id="task5" />
+          <label for="task5">Misol_5</label>
+          <div class="content">
+            <img src="./img/task5_img.png" alt="img" />
+            <button onclick="task5()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task6-->
+        <div class="savol">
+          <h1>
+            6. Doiraning yuzasi S berilgan. Uning radiusi R va diamterini D ni
+            topuvchi daastur tuzing.
+          </h1>
+          <input type="checkbox" id="task6" />
+          <label for="task6">Misol_6</label>
+          <div class="content">
+            <img src="./img/task6_img.png" alt="img" />
+            <button onclick="task6()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task7-->
+        <div class="savol">
+          <h1>
+            7. Faylning hajmi baytlarda berilgan. Uning kilobaytdagi hajmini
+            topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task7" />
+          <label for="task7">Misol_7</label>
+          <div class="content">
+            <img src="./img/task7_img.png" alt="img" />
+            <button onclick="task7()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task8-->
+        <div class="savol">
+          <h1>
+            8. A va B musbat son berilgan (A > B). A uzunlikdagi kesmaga B
+            uzunlikdagi kesmadan necha marta joylashtirish mumkin. Misol uchun,
+            16 sm lik kesmaga 5 sm lik kesmadan 3 ta joylashtirish mumkin.
+          </h1>
+          <input type="checkbox" id="task8" />
+          <label for="task8">Misol_8</label>
+          <div class="content">
+            <img src="./img/task8_img.png" alt="img" />
+            <button onclick="task8()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task9-->
+        <div class="savol">
+          <h1>
+            9. A va B musbat son berilgan (A > B). A uzunlikdagi kesmaga B
+            uzunlikdagi kesmadan necha marta joylashtirish mumkin va shunindke A
+            kesmaqa qancha joy ortib qoladi. Misol uchun, 16 sm lik kesmaga 5 sm
+            lik kesmadan 3 ta joylashtirish mumkin va 1 sm lik joy ortib qoladi.
+          </h1>
+          <input type="checkbox" id="task9" />
+          <label for="task9">Misol_9</label>
+          <div class="content">
+            <img src="./img/task9_img.png" alt="img" />
+            <button onclick="task9()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task10-->
+        <div class="savol">
+          <h1>
+            10. Ikki xonali son berilgan. Uning raqamlari kvadrati yeg'indisini
+            topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task10" />
+          <label for="task10">Misol_10</label>
+          <div class="content">
+            <img src="./img/task10_img.png" alt="img" />
+            <button onclick="task10()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task11-->
+        <div class="savol">
+          <h1>
+            11. Ikki xonali son berilgan. Uning raqamlari o'rnini almashtirish
+            natijasida hosil bo'lgan sonni topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task11" />
+          <label for="task11">Misol_11</label>
+          <div class="content">
+            <img src="./img/task11_img.png" alt="img" />
+            <button onclick="task11()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task12-->
+        <div class="savol">
+          <h1>
+            12. Uch xonali son berilgan. Uning yuzlar xonasidagi raqamini
+            aniqlovchid dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task12" />
+          <label for="task12">Misol_12</label>
+          <div class="content">
+            <img src="./img/task12_img.png" alt="img" />
+            <button onclick="task12()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task13-->
+        <div class="savol">
+          <h1>
+            13. Uch xonali son berilgan. Uning raqamlari yeg'indisini topuvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task13" />
+          <label for="task13">Misol_13</label>
+          <div class="content">
+            <img src="./img/task13_img.png" alt="img" />
+            <button onclick="task13()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task14-->
+        <div class="savol">
+          <h1>
+            14. Uch xonali son berilgan. Uning raqamlarini teskari tartibda
+            yozish natijasida hosil bo'lgan sonni topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task14" />
+          <label for="task14">Misol_14</label>
+          <div class="content">
+            <img src="./img/task14_img.png" alt="img" />
+            <button onclick="task14()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task15-->
+        <div class="savol">
+          <h1>
+            15. Uch xonali son berilgan. Uning chapdan birinchi raqamini
+            o'chirib oxiriga yozishdan hosil bo'lgan sonni topuvchi dastur
+            tuzing. Misol uchun, 324 -> 243
+          </h1>
+          <input type="checkbox" id="task15" />
+          <label for="task15">Misol_15</label>
+          <div class="content">
+            <img src="./img/task15_img.png" alt="img" />
+            <button onclick="task15()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task16-->
+        <div class="savol">
+          <h1>
+            16. Uch xonali son berilgan. Uning o'ngdagi birinchi raqamini
+            o'chirib boshiga yozishdan hosil bo'lgan sonni topuvchi dastur
+            tuzing. Misol uchun, 457 -> 745
+          </h1>
+          <input type="checkbox" id="task16" />
+          <label for="task16">Misol_16</label>
+          <div class="content">
+            <img src="./img/task16_img.png" alt="img" />
+            <button onclick="task16()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task17-->
+        <div class="savol">
+          <h1>
+            17. Uch xonali son berilgan. Uning o'nliklar xonasidagi son bilan
+            birliklar xonasidagi sonni almashtirish nastijasida hosil bo'lgan
+            sonni topuvchi dastur tuzing. Misol uchun, 653 -> 635
+          </h1>
+          <input type="checkbox" id="task17" />
+          <label for="task17">Misol_17</label>
+          <div class="content">
+            <img src="./img/task17_img.png" alt="img" />
+            <button onclick="task17()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task18-->
+        <div class="savol">
+          <h1>
+            18. Uch xonali son berilgan. Uning o'nliklar xonasidagi son bilan
+            yuzliklar xonasidagi sonni almashtirish nastijasida hosil bo'lgan
+            sonni topuvchi dastur tuzing. Misol uchun, 675 -> 765
+          </h1>
+          <input type="checkbox" id="task18" />
+          <label for="task18">Misol_18</label>
+          <div class="content">
+            <img src="./img/task18_img.png" alt="img" />
+            <button onclick="task18()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task19-->
+        <div class="savol">
+          <h1>
+            19. To'rt xonali son berilgan. Uning raqamlarini teskari tartibda
+            yozish natijasida hosil bo'lgan sonni topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task19" />
+          <label for="task19">Misol_19</label>
+          <div class="content">
+            <img src="./img/task19_img.png" alt="img" />
+            <button onclick="task19()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task20-->
+        <div class="savol">
+          <h1>
+            20. 999 dan katta bo'lgan istalgan berilgan. Ushbu sonni bo'lib
+            butunini olish (/) va bo'lib qoldig'ini olish (%) amalari orqali
+            o'nliklar xonasidagi raqamni topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task20" />
+          <label for="task20">Misol_20</label>
+          <div class="content">
+            <img src="./img/task20_img.png" alt="img" />
+            <button onclick="task20()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task21-->
+        <div class="savol">
+          <h1>
+            21. 999 dan katta bo'lgan istalgan berilgan. Ushbu sonni bo'lib
+            butunini olish (/) va bo'lib qoldig'ini olish (%) amalari orqali
+            yuzliklar xonasidagi raqamni topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task21" />
+          <label for="task21">Misol_21</label>
+          <div class="content">
+            <img src="./img/task21_img.png" alt="img" />
+            <button onclick="task21()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task22-->
+        <div class="savol">
+          <h1>
+            22. 999 dan katta bo'lgan istalgan berilgan. Ushbu sonni bo'lib
+            butunini olish (/) va bo'lib qoldig'ini olish (%) amalari orqali
+            mingliklar xonasidagi raqamni topuvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="task22" />
+          <label for="task22">Misol_22</label>
+          <div class="content">
+            <img src="./img/task22_img.png" alt="img" />
+            <button onclick="task22()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task23-->
+        <div class="savol">
+          <h1>
+            23. Kun boshidan boshlab N sekund o'tdi. Kun boshidan boshlab qancha
+            to'liq minut o'tganini hisoblovchi dastur tuzing. Masalan, kun
+            boshidan N=12321 sekund o'tdi. Bu kun boshidan boshlab to'liq 205
+            minut degani.
+          </h1>
+          <input type="checkbox" id="task23" />
+          <label for="task23">Misol_23</label>
+          <div class="content">
+            <img src="./img/task23_img.png" alt="img" />
+            <button onclick="task23()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task24-->
+        <div class="savol">
+          <h1>
+            24. Kun boshidan boshlab N sekund o'tdi. Kun boshidan boshlab qancha
+            to'liq soat o'tganini hisoblovchi dastur tuzing. Masalan, kun
+            boshidan N=12321 sekund o'tdi. Bu kun boshidan boshlab to'liq 3 soat
+            degani.
+          </h1>
+          <input type="checkbox" id="task24" />
+          <label for="task24">Misol_24</label>
+          <div class="content">
+            <img src="./img/task24_img.png" alt="img" />
+            <button onclick="task24()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task25-->
+        <div class="savol">
+          <h1>
+            25. Kun boshidan boshlab N sekund o'tdi. Kun boshidan boshlab qancha
+            minut va sekund o'tganini hisoblovchi dastur tuzing. Masalan, kun
+            boshidan N=12321 sekund o'tdi. Bu kun boshidan boshlab 205 minut 21
+            sekund degani.
+          </h1>
+          <input type="checkbox" id="task25" />
+          <label for="task25">Misol_25</label>
+          <div class="content">
+            <img src="./img/task25_img.png" alt="img" />
+            <button onclick="task25()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task26-->
+        <div class="savol">
+          <h1>
+            26. Kun boshidan boshlab N sekund o'tdi. Kun boshidan boshlab qancha
+            soat va sekund o'tganini hisoblovchi dastur tuzing. Masalan, kun
+            boshidan N=12321 sekund o'tdi. Bu kun boshidan boshlab 3 soat 1521
+            sekund degani.
+          </h1>
+          <input type="checkbox" id="task26" />
+          <label for="task26">Misol_26</label>
+          <div class="content">
+            <img src="./img/task26_img.png" alt="img" />
+            <button onclick="task26()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--task27-->
+        <div class="savol">
+          <h1>
+            27. Kun boshidan boshlab N sekund o'tdi. Kun boshidan boshlab qancha
+            soat, minut va sekund o'tganini hisoblovchi dastur tuzing. Masalan,
+            kun boshidan N=12321 sekund o'tdi. Bu kun boshidan boshlab 3 soat 25
+            minut 21 sekund degani.
+          </h1>
+          <input type="checkbox" id="task27" />
+          <label for="task27">Misol_27</label>
+          <div class="content">
+            <img src="./img/task27_img.png" alt="img" />
+            <button onclick="task27()">click here..</button>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <!--Begin container-->
+      <div id="container_begin">
+        <!--begin5-->
+        <div class="savol">
+          <h1>
+            Begin5. Kubning yon tomoni berilgan uning hajmi V = a 3 va to'la
+            sirti S = 6*a 2kv aniqlansin.
+          </h1>
+          <input type="checkbox" id="begin5" />
+          <label class="begin_label" for="begin5">Begin5</label>
+          <div class="content">
+            <img src="./img/begin5.png" alt="img" />
+            <button onclick="begin5()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--begin6-->
+        <div class="savol">
+          <h1>
+            Begin6. Paralipepedning tomonlari a,b,c berilgan. Uning hajmini V =
+            a*b*c va to'la sirti S = 2*(a*b+b+b*c+a*c) aniqlansin.
+          </h1>
+          <input type="checkbox" id="begin6" />
+          <label class="begin_label" for="begin6">Begin6</label>
+          <div class="content">
+            <img src="./img/begin6.png" alt="img" />
+            <button onclick="begin6()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--begin7-->
+        <div class="savol">
+          <h1>
+            Begin7. Doiraning Radiusi R berilgan. Uzunligi L va Yuzasi S
+            aniqlansin. L = 2* P* R, S =P* R2.
+          </h1>
+          <input type="checkbox" id="begin7" />
+          <label class="begin_label" for="begin7">Begin7</label>
+          <div class="content">
+            <img src="./img/begin7.png" alt="img" />
+            <button onclick="begin7()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--begin8-->
+        <div class="savol">
+          <h1>
+            Begin8 . 2 ta son berilgan ularning o'rta arifmetigi aniqlansin.
+            (a+b)/2.
+          </h1>
+          <input type="checkbox" id="begin8" />
+          <label class="begin_label" for="begin8">Begin8</label>
+          <div class="content">
+            <img src="./img/begin8.png" alt="img" />
+            <button onclick="begin8()">click here..</button>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <!--if else container-->
+      <div id="container_if">
+        <!--if1-->
+        <div class="savol">
+          <h1>
+            if1 . agar son 0 dan katta bo'lsa 1 yoki kichik bo'lsa -1 agar son 0
+            ga teng bo'lsa 0 chiqarsin.
+          </h1>
+          <input type="checkbox" id="if1" />
+          <label class="if_label" for="if1">if1</label>
+          <div class="content">
+            <img src="./img/if1_img.png" alt="img" />
+            <button onclick="if1()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--if2-->
+        <div class="savol">
+          <h1>
+            if2 . Agar yig'indi 4 dan kichik bo'lsa Below aks holda over natija
+            chiqarsin.
+          </h1>
+          <input type="checkbox" id="if2" />
+          <label class="if_label" for="if2">if2</label>
+          <div class="content">
+            <img src="./img/if2_img.png" alt="img" />
+            <button onclick="if2()">click here..</button>
+          </div>
+        </div>
+        <hr />
+        <!--if3-->
+        <div class="savol">
+          <h1>if3 .Login parol kiritish dasturi.</h1>
+          <input type="checkbox" id="if3" />
+          <label class="if_label" for="if3">if3</label>
+          <div class="content">
+            <img src="./img/if3_img.png" alt="img" />
+            <button onclick="if3()">click here..</button>
+          </div>
+        </div>
+        <!--case container-->
+      </div>
+      <div id="container_case">
+        <!--case5-->
+        <div class="savol">
+          <h1>
+            case5 . a va b son kiritilsin va unda bajariluvchi amal tanlansin va
+            natija chiqarilsin.
+          </h1>
+          <input type="checkbox" id="case5" />
+          <label class="case_label" for="case5">Case_5</label>
+          <div class="content">
+            <img src="./img/case5.png" alt="img" />
+            <button onclick="case5()">click here..</button>
+          </div>
+        </div>
+        <!--case6-->
+        <div class="savol">
+          <h1>
+            case6 . Ifodalar berilgan 1 Detsimetr 2 kilometr 3 metr ... ifoda
+            tanlab qiymat kiritilganda metrga o'giruvchi programma tuzilsin.
+          </h1>
+          <input type="checkbox" id="case6" />
+          <label class="case_label" for="case6">Case_6</label>
+          <div class="content">
+            <img src="./img/case6.png" alt="img" />
+            <button onclick="case6()">click here..</button>
+          </div>
+        </div>
+        <!--case7-->
+        <div class="savol">
+          <h1>
+            case7 . 1 Kilogram 2 Milligram 3 gramm 4 Tonna 5 senter berilgan
+            qiymatni kilogrammda ifodalovchi programma tuzilsin.
+          </h1>
+          <input type="checkbox" id="case7" />
+          <label class="case_label" for="case7">Case_7</label>
+          <div class="content">
+            <img src="./img/case7.png" alt="img" />
+            <button onclick="case7()">click here..</button>
+          </div>
+        </div>
+        <!--if davomi -->
+      </div>
+      <div id="container_if_davomi">
+        <!--if10-->
+        <div class="savol">
+          <h1>
+            If10. A va B butun sonlar berilgan Agar o'zgaruvchilar o'zaro teng
+            bo'lmasa A va B o'zgaruvchilar yig'indini o'zlashtirsin.Agar teng
+            bo'lsa 0 ni o'zlashtirsin . A va B ni qiymati ekranga chiqarilsin.
+          </h1>
+          <input type="checkbox" id="if10" />
+          <label class="if_davomi_label" for="if10">If10</label>
+          <div class="content">
+            <img src="./img/if10.png" alt="img" />
+            <button onclick="if10()">click here..</button>
+          </div>
+        </div>
+
+        <!--if11-->
+        <div class="savol">
+          <h1>
+            If11. A va B butun sonlar berilgan Agar o'zgaruvchilar o'zaro teng
+            bo'lmasa A va B kattasini o'zlashtirsin.Agar teng bo'lsa 0 ni
+            o'zlashtirsin . A va B ni qiymati ekranga chiqarilsin.
+          </h1>
+          <input type="checkbox" id="if11" />
+          <label class="if_davomi_label" for="if11">If11</label>
+          <div class="content">
+            <img src="./img/if11.png" alt="img" />
+            <button onclick="if11()">click here..</button>
+          </div>
+        </div>
+        <!--if12-->
+        <div class="savol">
+          <h1>
+            If12. Uchta son berilgan kichigini aniqlovchi dastur tuzilsin.
+          </h1>
+          <input type="checkbox" id="if12" />
+          <label class="if_davomi_label" for="if12">If12</label>
+          <div class="content">
+            <img src="./img/if12.png" alt="img" />
+            <button onclick="if12()">click here..</button>
+          </div>
+        </div>
+        <!--if13-->
+        <div class="savol">
+          <h1>If13. Uchta son berilgan ular orasidan o'rtachasini aniqlash.</h1>
+          <input type="checkbox" id="if13" />
+          <label class="if_davomi_label" for="if13">If13</label>
+          <div class="content">
+            <img src="./img/if13.png" alt="img" />
+            <button onclick="if13()">click here..</button>
+          </div>
+        </div>
+        <!--if14-->
+        <div class="savol">
+          <h1>
+            If14. Uchta son berilgan ular orasidan avval eng kichigi va eng
+            kattasini chiqaruvchi dastur tuzilsin.
+          </h1>
+          <input type="checkbox" id="if14" />
+          <label class="if_davomi_label" for="if14">If14</label>
+          <div class="content">
+            <img src="./img/if14.png" alt="img" />
+            <button onclick="if14()">click here..</button>
+          </div>
+        </div>
+        <!--if15-->
+        <div class="savol">
+          <h1>
+            If15. Uchta son berilgan ular orasidan yig'indisi eng katta
+            bo'ladigan ikkitasini ekranga chiqaruvchi dastur tuzilsin.
+          </h1>
+          <input type="checkbox" id="if15" />
+          <label class="if_davomi_label" for="if15">If15</label>
+          <div class="content">
+            <img src="./img/if15.png" alt="img" />
+            <button onclick="if15()">click here..</button>
+          </div>
+        </div>
+        <!--if16-->
+        <div class="savol">
+          <h1>
+            If16. A,B,C sonlar berilgan.Agar sonlar o'sish tartibida bo'lsa
+            ikkilantirilsin.Aks holda ishorasi o'zgartirilsin. sonlar ekranga
+            chiqarilsin.
+          </h1>
+          <input type="checkbox" id="if16" />
+          <label class="if_davomi_label" for="if16">If16</label>
+          <div class="content">
+            <img src="./img/if16.png" alt="img" />
+            <button onclick="if16()">click here..</button>
+          </div>
+        </div>
+        <!--if17-->
+        <div class="savol">
+          <h1>
+            If17. A,B,C sonlar berilgan.Agar sonlar o'sish yoki kamayish
+            tartibida bo'lsa ikkilantirilsin.Aks holda ishorasi o'zgartirilsin.
+            sonlar ekranga chiqarilsin.
+          </h1>
+          <input type="checkbox" id="if17" />
+          <label class="if_davomi_label" for="if17">If17</label>
+          <div class="content">
+            <img src="./img/if17.png" alt="img" />
+            <button onclick="if17()">click here..</button>
+          </div>
+        </div>
+        <!--if18-->
+        <div class="savol">
+          <h1>
+            If18. uchta son berilgan shulardan ikkitasi o'zaro teng. Qolgan
+            bittasi raqami aniqlansin.
+          </h1>
+          <input type="checkbox" id="if18" />
+          <label class="if_davomi_label" for="if18">If18</label>
+          <div class="content">
+            <img src="./img/if18.png" alt="img" />
+            <button onclick="if18()">click here..</button>
+          </div>
+        </div>
+      </div>
+      <div id="container_for">
+        <!--for1-->
+        <div class="savol">
+          <h1>
+            1. 1 dan n gacha barcha natural sonlarni ekranga chiqaruvchi dastur
+            tuzing.
+          </h1>
+          <input type="checkbox" id="for1" />
+          <label class="for_label" for="for1">for1</label>
+          <div class="content">
+            <img src="./img/for1.png" alt="img" />
+            <img src="./img/while1.png" alt="img" />
+            <img src="./img/whiledo1.png" alt="img" />
+            <button onclick="for1()">for..</button>
+            <button onclick="while1()">while..</button>
+            <button onclick="whiledo1()">do while..</button>
+          </div>
+        </div>
+        <!--for2-->
+        <div class="savol">
+          <h1>
+            2. 1 dan n gacha barcha natural sonlarni teskari tartibda ekranga
+            chiqaruvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for2" />
+          <label class="for_label" for="for2">for2</label>
+          <div class="content">
+            <img src="./img/for2.png" alt="img" />
+            <img src="./img/while2.png" alt="img" />
+            <img src="./img/whiledo2.png" alt="img" />
+            <button onclick="for2()">for..</button>
+            <button onclick="while2()">while..</button>
+            <button onclick="whiledo2()">do while..</button>
+          </div>
+        </div>
+        <!--for3-->
+        <div class="savol">
+          <h1>
+            3. 1 dan n gacha bo'lgan barcha juft raqamlarni ekranga chiqaruvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for3" />
+          <label class="for_label" for="for3">for3</label>
+          <div class="content">
+            <img src="./img/for3.png" alt="img" />
+            <img src="./img/while3.png" alt="img" />
+            <img src="./img/whiledo3.png" alt="img" />
+            <button onclick="for3()">for..</button>
+            <button onclick="while3()">while..</button>
+            <button onclick="whiledo3()">do while..</button>
+          </div>
+        </div>
+        <!--for4-->
+        <div class="savol">
+          <h1>
+            4. 1 dan n gacha bo'lgan barcha toq raqamlarni ekranga chiqaruvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for4" />
+          <label class="for_label" for="for4">for4</label>
+          <div class="content">
+            <img src="./img/for4.png" alt="img" />
+            <img src="./img/while4.png" alt="img" />
+            <img src="./img/whiledo4.png" alt="img" />
+            <button onclick="for4()">for..</button>
+            <button onclick="while4()">while..</button>
+            <button onclick="whiledo4()">do while..</button>
+          </div>
+        </div>
+        <!--for5-->
+        <div class="savol">
+          <h1>
+            5. 1 dan n gacha bo'lgan sonlarning qarama qarshisini ekranga
+            chiqaruvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for5" />
+          <label class="for_label" for="for5">for5</label>
+          <div class="content">
+            <img src="./img/for5.png" alt="img" />
+            <img src="./img/while5.png" alt="img" />
+            <img src="./img/whiledo5.png" alt="img" />
+            <button onclick="for5()">for..</button>
+            <button onclick="while5()">while..</button>
+            <button onclick="whiledo5()">do while..</button>
+          </div>
+        </div>
+        <!--for6-->
+        <div class="savol">
+          <h1>
+            6. 1 dan n gacha bo'lgan barcha natural sonlar yig'indisini topuvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for6" />
+          <label class="for_label" for="for6">for6</label>
+          <div class="content">
+            <img src="./img/for6.png" alt="img" />
+            <img src="./img/while6.png" alt="img" />
+            <img src="./img/whiledo6.png" alt="img" />
+            <button onclick="for6()">for..</button>
+            <button onclick="while6()">while..</button>
+            <button onclick="whiledo6()">do while..</button>
+          </div>
+        </div>
+        <!--for7-->
+        <div class="savol">
+          <h1>
+            7. 1 dan n gacha bo'lgan barcha juft sonlar yig'indisini topuvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for7" />
+          <label class="for_label" for="for7">for7</label>
+          <div class="content">
+            <img src="./img/for7.png" alt="img" />
+            <img src="./img/while7.png" alt="img" />
+            <img src="./img/whiledo7.png" alt="img" />
+            <button onclick="for7()">for..</button>
+            <button onclick="while7()">while..</button>
+            <button onclick="whiledo7()">do while..</button>
+          </div>
+        </div>
+        <!--for8-->
+        <div class="savol">
+          <h1>
+            8. 1 dan n gacha bo'lgan barcha toq sonlar yig'indisini topuvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for8" />
+          <label class="for_label" for="for8">for8</label>
+          <div class="content">
+            <img src="./img/for8.png" alt="img" />
+            <img src="./img/while8.png" alt="img" />
+            <img src="./img/whiledo8.png" alt="img" />
+            <button onclick="for8()">for..</button>
+            <button onclick="while8()">while..</button>
+            <button onclick="whiledo8()">do while..</button>
+          </div>
+        </div>
+        <!--for9-->
+        <div class="savol">
+          <h1>
+            9. 1 dan n gacha bo'lgan sonlarning ko'paytmasini ekranga
+            chiqaruvchi dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for9" />
+          <label class="for_label" for="for9">for9</label>
+          <div class="content">
+            <img src="./img/for9.png" alt="img" />
+            <img src="./img/while9.png" alt="img" />
+            <img src="./img/whiledo9.png" alt="img" />
+            <button onclick="for9()">for..</button>
+            <button onclick="while9()">while..</button>
+            <button onclick="whiledo9()">do while..</button>
+          </div>
+        </div>
+        <!--for10-->
+        <div class="savol">
+          <h1>
+            10. 1 dan n gacha bo'lgan barcha natural sonlar kvadratini topuvchi
+            dastur tuzing.
+          </h1>
+          <input type="checkbox" id="for10" />
+          <label class="for_label" for="for10">for10</label>
+          <div class="content">
+            <img src="./img/for10.png" alt="img" />
+            <img src="./img/while10.png" alt="img" />
+            <img src="./img/whiledo10.png" alt="img" />
+            <button onclick="for10()">for..</button>
+            <button onclick="while10()">while..</button>
+            <button onclick="whiledo10()">do while..</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
